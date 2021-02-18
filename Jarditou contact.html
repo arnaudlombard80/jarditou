@@ -22,39 +22,38 @@
 		<strong><a id="contact"></a>CONTACT</strong>
 	</p>
 	<hr />
-
-	<fieldset>
-		<legend>
+	<form action="" method="GET">
+		<fieldset>
+			<legend>
 			vos coordonnées
-		</legend>
-		<label for="nom">votre nom:</label>
-		<input type="text" name="votre_nom*" id="votre_nom" required>
-		<br>
-		<label for="prenom">votre prénom:</label>
-		<input type="text" name="votre_prénom*" id="prenom" required>
-		<br>
+			</legend>
+			<label for="votre_nom">votre nom*:</label>
+			<input type="text" name="votre_nom*" required="required" id="votre_nom" >
+			<br>
+			<label for="votre_prenom">votre prénom*:</label>
+			<input type="text" name="votre_prénom*" required id="prenom" >
+			<br>
 		<p>
-			Sexe
 			<p>
-				<form>
+				
           <p>Sexe*:</p>
           <div>
             <input type="radio" id="Choice1"
-             name="féminin" value="féminin">
+             name="sexe" value="féminin">
             <label for="Choice1">Féminin</label>
         
             <input type="radio" id="Choice2"
-             name="Masculin" value="Masculin">
-            <label for="Choice2">Téléphone</label>
+             name="sexe" value="Masculin" required>
+            <label for="Choice2">Masculin</label>
         
           </div>
-        </form>
+       
 				<br>
-				<label for="date">Date de naissance:</label>
+				<label for="date">Date de naissance*:</label>
 				<input type="date" name="ddn" id="date" required>
 				<br>
-				<label for="code_postal">code postal:</label>
-				<input type="number" name="user_code_postal*" id="code_postal">
+				<label for="code_postal">code postal*:</label>
+				<input type="number" name="user_code_postal*" required id="code_postal">
 				<br>
 				<label for="Adress">Adresse:</label>
 				<input type="text" name="user_adress" id="Adress">
@@ -65,28 +64,30 @@
 				<label for="mail">Email*:</label>
 				<input type="email" name="email" id="mail" placeholder="dave.loper@afpa.fr" required>
 				<br>
-				<input type="checkbox" name="J'accepte" value="yes" >
+				<input type="checkbox" name="J'accepte" required value="yes" >
 				 *J'accepte le traitement informatique de ce formulaire   
 			</fieldset>
 			<fieldset>
 				<legend>
 					votre demande
 				</legend>
-				<label for="sujet">sujet*:</label required>
-				<select id="sujet">
+				<label for="sujet">sujet*:</label >
+				<select id="sujet" required>
 					<option value="" selected>veuillez selectionner un sujet</option>
 					<option value="Mes commandes">Mes Commandes</option>
 					<option value="Question sur un produit">Question sur un produit</option>
 					<option value="Réclamation">Réclamation</option>
-				</select>
-				<textarea name="commentaire" rows="2" cols="20" required></textarea>
+				</select><br>
+				<label for="question">votre question*:</label required>
+				<textarea name="commentaire" requiredrows="2" cols="20" required></textarea>
 				`   
 			</fieldset>
-			<input type="checkbox" name="J'accepte" value="0" >
+			<input type="checkbox" name="J'accepte" required value="0" >
 			 *J'accepte le traitement informatique de ce formulaire   
 			<input type="submit" value="Envoyer">
-			<input type="submit" value="Annuler">
+			<input type="reset" value="Annuler">
 			<hr />
+		</form>
 			<footer>
 				<ul>
 					<li><a href="ML-Jarditou.html">Mentions Légales</a></li>
