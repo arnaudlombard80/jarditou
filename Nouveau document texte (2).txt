@@ -1,0 +1,7 @@
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<!-- Debut de la balise head -->
+<p>&nbsp;</p>
+<!-- Encodage UTF-8 conçu pour coder l'ensemble des caractères -->
+<p></p>
+<h1>Titre H1 tr&egrave;s important</h1>
