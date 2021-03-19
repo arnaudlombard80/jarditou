@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="Recap-JS.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2? family = Ranchers & display = swap" rel="feuille de style ">
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+
+    <title>Recap-JS</title>
+</head>
+
+<body>
+
+    <div class="container-fluid red"></div><br>
+    <!--mes commentaires-->
+    <h1><strong> Les exercices JavaScript </strong></h1>
+    <br><img src="https://trello-attachments.s3.amazonaws.com/5f5b64f9ddabcd46182702f7/5f5b658711542368a2060e6f/53bc76419ff5308719ffbc3fe9f24edd/image.jpeg" class="right" width="100" height="100">
+    <p4>exercices TB-2017 AFPA Arnaud LOMBARD</p4>
+
+
+    <br><br>
+    <p4><a href="https://ncode.amorce.org/parcours/101/5137" target="_blank">cours et exercices <em>NCODE</em> </a></p4>
+    <br><br>
+
+
+
+    <!--JAVASCRIPT 05-->
+
+    <div class="container-fluid red">
+        <h2>JavaScript-05 : Texte</h2><br>
+        <div class="container">
+            <div class="row align-items-start">
+                <div class="col-md-12">
+                    <H3>Affichage d'un texte</H3>
+                    <p>Créer une page HTML qui demande à l’utilisateur un prénom.</p3>
+                        <p>La page doit continuer à demander des prénoms à l’utilisateur jusqu’à ce qu’il laisse le champ vide.</p>
+                        <p>Enfin, la page affiche sur la console le nombre de prénoms et les prénoms saisis.</p>
+                        <button class="btn btn-primary" id="saisie">Execution du code</button><br>
+
+
+
+                        <div id="b1" style="display:none;">
+                            <pre><code class="js">
+        var firstname = '';
+        var count = 1;
+        do {
+            firstname = window.prompt('Saisissez le prénom N° ' + count + '\n ou click sur Annuler pour arréter la saisie.');
+        
+         if (firstname != null && firstname != '') {
+                console.log('Prénom N° ' + count + ': ' + firstname);
+                count++;
+            }
+        
+        } while (firstname != null && firstname != '');        
+        </code></pre>
+                            <br><br><br>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <!-- JAVASCRIPT 7 CONDITIONS -->
+        <div class="container-fluid red">
+            <h2>JavaScript -07 : les conditions</h2><br>
+            <div class="container">
+                <div class="row col-md-12">
+                    <article class="col-md-12">
+                        <H3>La Parité</H3>
+                        <p> Ecrivez un programme qui demande un nombre à l'utilisateur puis qui teste si ce nombre est pair. Le programme doit afficher le résultat nombre pair ou nombre impair. Vous devez utiliser l'opérateur modulo % qui donne le reste d'une
+                            division. a%2 donne le reste de la division de a par 2, si ce reste est égal à zéro, a est divisible par 2.</p>
+                        <br><button class="btn btn-primary" id="parite">Execution du code</button>
+                        <hr>
+
+                        <div id="b1" style="display:none;">
+                            <pre><code class="js">
+        var firstname = '';
+        var count = 1;
+        do {
+            firstname = window.prompt('Saisissez le prénom N° ' + count + '\n ou click sur Annuler pour arréter la saisie.');
+        
+         if (firstname != null && firstname != '') {
+                console.log('Prénom N° ' + count + ': ' + firstname);
+                count++;
+            }
+        
+        } while (firstname != null && firstname != '');        
+        </code></pre>
+                            <br>
+                        </div>
+                </div>
+                <!-- JAVASCRIPT 7 EXERCICE AGE -->
+
+                <article class="col-md-12">
+                    <H3>Quel âge as-tu ?</H3>
+                    <p>Ecrivez un programme qui demande l'année de naissance à l'utilisateur. En réponse votre programme doit afficher l'âge de l'utilisateur et indiquer si l'utilisateur est majeur ou mineur.</p3>
+                        <p>La page doit continuer à demander des prénoms à l’utilisateur jusqu’à ce qu’il laisse le champ vide.</p>
+                        <p>Enfin, la page affiche sur la console le nombre de prénoms et les prénoms saisis.</p>
+                        <button class="btn btn-primary" id="age">Execution du code</button>
+                        <hr>
+                </article>
+
+
+
+
+                <!-- JAVASCRIPT 7 EXERCICE CALCULATRICE -->
+
+                <article class="col-md-12">
+                    <H3>Calculatrice</H3><br>
+                    <p>Faire la saisie de 2 nombres entiers, puis la saisie d'un opérateur +, -, * ou /. Si l'utilisateur entre un opérateur erroné, le programme affichera un message d'erreur. Dans le cas contraire, le programme effectuera l'opération demandée
+                        (en prévoyant le cas d'erreur division par 0), puis affichera le résultat.</p>
+                    <button class="btn btn-primary" id="Calculatrice">Execution du code</button>
+                    <hr>
+                </article>
+            </div>
+
+            <!--JAVASCRIPT 10 TABLEAUX -->
+
+            <div class="container-fluid red">
+                <h2>JavaScript-10 : Tableaux</h2><br>
+                <div class="container">
+                    <div class="row align-items-start">
+                        <div class="col-md-12">
+                            <H3>premier tableau</H3>
+                            <p>Saisissez un nombre de données, puis les données à afficher dans un tableau via une alert().</p>
+                            <button class="btn btn-primary" id="table">Execution du code</button><br>
+                            <div id="b1" style="display:none;">
+
+                            </div>
+                        </div>
+                    </div>
+                </div><br><br>
+
+
+
+                <!--EVALUATION EXERCICE 1 -->
+
+                <div class="container-fluid red">
+                    <h2>JavaScript : Evaluation</h2><br>
+                    <div class="container">
+                        <div class="row align-items-start">
+                            <div class="col-md-12">
+                                <H3>Exercice1 TRANCHE Affichage</H3>
+                                <p>Il s'agit de dénombrer les personnes d'âge strictement inférieur à 20 ans, les personnes d'âge strictement supérieur à 40 ans et celles dont l'âge est compris entre 20 ans et 40 ans (20 ans et 40 ans y compris) Le programme
+                                    doit demander les âges successifs. Le comptage est arrêté dès la saisie d'un centenaire. Le centenaire est compté. Donnez le programme Javascript correspondant qui affiche les résultats..</p>
+                                <button class="btn btn-primary" id="tranche">Execution du code</button><br>
+                            </div>
+                        </div>
+                        <hr>
+
+                        <!-- JAVASCRIPT 7 EXERCICE table multiplication -->
+
+                        <article class="col-md-12">
+                            <h3>2 - Tables de multiplication</h3>
+                            <p>Ecrivez une fonction qui affiche une table de multiplication.</p>
+                            <p>Votre fonction doit prendre un paramètre qui permet d’indiquer quelle table afficher.</p>
+                            <button id="multi">Execution du code</button>
+
+
+
+                            <div id="b2" style="display:none;">
+                                <pre><code class="js">
+       
+
+        <function _TableMultiplication()
+        {
+            var res = 0;
+            var i = 0;
+            var tab = [];
+            var X = prompt("Entrez le nombre correspondant à la table de multiplication souhaité");
+            if (X == null) {
+                window.close();
+            }
+            else {
+                X = parseInt(X);
+                if (!controle.test(X))
+                {
+                    alert("Il faut entrer un nombre \n Recommencez !");
+                    window.location.reload(_TableMultiplication());
+                }
+                while (i <= 10)
+                {
+                    res = i * X;
+                    tab[i] = (i + " x " + X + " = " + res + "\n");
+                    i++;
+                }
+                if (tab != 0) {
+                    tab = tab.join("");
+                    alert(tab);
+                }
+                if (confirm("Voulez vous recommencer ?") == true) {
+                    window.location.reload(_TableMultiplication());
+                }
+            }
+        }
+        _TableMultiplication();
+        </code></pre>
+                        </article>
+
+
+
+                        <script src="Recap-JS.js"></script>
+
+</body>
+
+</html>

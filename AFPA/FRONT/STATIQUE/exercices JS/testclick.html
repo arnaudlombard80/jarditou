@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <tittle>je teste les évènements</tittle>
+    <meta charset='utf-8'>
+</head>
+
+<body>
+    <p>cliquez-moi !!!</p>
+    <p>un deuxieme <strong>paragraphe</strong>
+        <p>
+            <script>
+                var p1 = document.querySelector('p');
+                p1.addEventListener('click', changetexte);
+
+                function changetexte() {
+                    this.innerHTML = '<strong>Bravo !!</strong>';
+                    this.style.color = 'orange';
+                }
+            </script>
+</body>
+
+</html>

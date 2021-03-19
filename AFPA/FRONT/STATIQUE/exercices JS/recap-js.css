@@ -1,0 +1,94 @@
+/* mon css */
+
+h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #042c44;
+    text-align: center;
+    text-shadow: 2px 3px rgb(255, 0, 13);
+}
+
+
+}
+li {
+    color: black
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+p1 {
+    color: rgb(136, 20, 20);
+    display: inline-flexbox;
+}
+#p1 {
+    font-size: x-large;
+    text-decoration: burlywood;
+    line-height: 1px;
+    border: 20px black;
+    font-style: italic;
+    margin: 2rem;
+}
+.div1 {
+    color: chartreuse;
+    font-size: 40px;
+    background-color: black;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration-line: underline;
+    width: 50%;
+    padding: 20px;
+    border: 20px solid #fff;
+    margin: 50px;
+    padding: 30px;
+    box-shadow: chartreuse 5px 3px 1px;
+    margin: auto;
+}
+.span-mars {
+    font-weight: bold;
+}
+body {
+    font-family: de polices: 'Ranchers', cursive;
+}
+p1,
+p4 {
+    letter-spacing: 4px;
+    margin: 250px;
+}
+.test {
+    border-top: blue 5px;
+    width: 500px;
+    height: 50px;
+    font-size: 200%;
+    border-style: double;
+    text-align: center;
+    border-radius: 8px;
+    background-color: cornsilk;
+}
+span {
+    font-size: 25px;
+    border: 2px coral solid;
+}
+.image {
+    margin auto
+}
+.red {
+    height: 50px;
+    background-color: red;
+    color: grey
+}
+h4 {
+    margin: 2rem
+}
+p3 {
+    font-size: 150%;
+    text-align: center;
+    background-color: rgb(121, 105, 108);
+    color: white;
+}
+h2 {
+    color: white;
+}
+p4 {
+    margin margin-left: 250 px;
+}
